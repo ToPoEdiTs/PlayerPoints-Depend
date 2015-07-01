@@ -1,0 +1,11 @@
+name: Depend
+main: com.topoedits.Depend
+version: 1.0
+author: [ToPoEdiTs]
+Depend: [PlayerPoints]
+commands:
+    myxp:
+        description: look you points
+permission:
+    multiplicator.vip.x2:
+        description: vip x2
