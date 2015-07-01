@@ -52,7 +52,10 @@ public class Depend extends JavaPlugin implements Listener {
     if (jugador.hasPermission("multiplicator.vip.x2")) {
       pp.give(jugador.getName(), 6);
       jugador.sendMessage(ChatColor.WHITE + "+6 " + ChatColor.GREEN + getConfig().getString("Coins.kill"));
-    
+    } else {
+      pp.give(jugador.getName(), 3);
+      jugador.sendMessage(ChatColor.WHITE + "+3 " + ChatColor.GREEN + getConfig().getString("Coins.kill"));
+    }
   }
 }
 
