@@ -1,8 +1,8 @@
 # Report bugs using pastebin.com
 # Thanks for download and use!
-# Important Use (��) for ChatColor don't use (&).
+# Important Use (§) for ChatColor don't use (&).
 
 Coins:
-    prefix: ��5Coins
-    kill: ��aServerNameXP
-    have: ��bYou have
+    prefix: §5Coins
+    kill: §aServerNameXP
+    have: §bYou have
