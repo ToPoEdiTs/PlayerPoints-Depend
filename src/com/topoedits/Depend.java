@@ -22,7 +22,6 @@ public class Depend extends JavaPlugin implements Listener {
     getLogger().info("===========================");
     getLogger().info("Plugin: PlayerPoints Depend");
     getLogger().info("Version: 1.0 BETA");
-    getLogger().info("Support: topoedits@tolexdevs.es");
     getLogger().info("===========================");
     getServer().getPluginManager().registerEvents(this, this);
   }
